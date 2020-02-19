@@ -44,7 +44,7 @@ public class GradesController {
 		   return gradesRepository.bestGradesByStudentAndCourse();
 	}
 	
-	@RequestMapping("/worstGrades/studensAndCourse")
+	@RequestMapping("/worstGrades/studentAndCourse")
 	public List<Grades> getWorstGradesByStudentAndCourse(){
 		   return gradesRepository.worstGradesByStudentAndCourse();
 	}
